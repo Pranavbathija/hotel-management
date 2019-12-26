@@ -1,0 +1,157 @@
+:root {
+  --mainSpacing: 0.1rem;
+  --mainTransition: all 0.3s linear;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* nav */
+.navbar {
+  background-color: darkslateblue;
+  position: sticky;
+  top: 0;
+  height: 60px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  z-index: 1;
+}
+.navbar-center {
+  width: 100%;
+  max-width: 1170px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 1.5rem;
+}
+.nav-icon {
+  font-size: 1.5rem;
+}
+
+.nav-links {
+  color: white;
+}
+
+.logo {
+  width: 90px;
+  height: 50px;
+}
+
+/* carousel */
+.carousel {
+  margin: auto;
+  width: 80%;
+}
+.heading {
+  text-align: center;
+}
+.car-img {
+  height: 600px;
+}
+
+/* home content */
+.welcome {
+  padding: 100px;
+}
+.wel-img {
+  float: right;
+  width: 300px;
+  padding-left: 70px;
+}
+
+.rooms {
+  padding: 75px;
+  display: grid;
+  /* grid-template-columns: auto auto; */
+  margin-left: auto;
+  margin-right: auto;
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+}
+.explore-more {
+  padding: 10px;
+  border: 2px solid gray;
+  color: white;
+  background-color: darkslateblue;
+  font-weight: 600;
+}
+.explore-more:hover {
+  color: darkslateblue;
+  background-color: white;
+  text-decoration: none;
+}
+.room-img {
+  /* padding: 50px; */
+  width: 100%;
+  height: 400px;
+  transition: var(--mainTransition);
+}
+.room {
+  padding: 25px;
+}
+.img-container {
+  position: relative;
+  overflow: hidden;
+}
+.room-btn {
+  position: absolute;
+  top: 70%;
+  right: 0;
+  /*border: none;
+  text-transform: uppercase;
+  padding: 0.5rem 0.75rem;
+  font-weight: bold; */
+  transition: var(--mainTransition);
+  transform: translateX(101%);
+  padding: 10px;
+  border: 2px solid gray;
+  color: white;
+  background-color: darkslateblue;
+  font-weight: 600;
+  /* cursor: pointer; */
+}
+.img-container:hover .room-btn {
+  transform: translateX(0);
+}
+.room-btn:hover {
+  color: darkslateblue;
+  background-color: white;
+  text-decoration: none;
+}
+/* footer */
+.footer {
+  background-color: darkslateblue;
+  padding: 10px 100px;
+  padding-top: 100px;
+}
+
+.quick {
+  float: right;
+}
+.designed_by {
+  text-align: center;
+}
+/* about content */
+
+.about-content {
+  padding: 100px;
+}
+/* Accommodation content */
+.room-desc {
+  padding: 50px;
+  overflow: auto;
+}
+.acc-room-img {
+  width: 500px;
+  float: left;
+  padding-right: 30px;
+}
+.acc-container {
+  padding: 100px;
+}
+.acc-room-desc {
+  padding-left: 30px;
+  overflow: auto;
+}

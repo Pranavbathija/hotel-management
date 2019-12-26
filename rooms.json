@@ -1,0 +1,28 @@
+{
+  "roomTypes": [
+    {
+      "id": 1,
+      "type": "Deluxe",
+      "image": "./images/deluxe.jpg",
+      "descprition": "Our Deluxe rooms give you a warm feeling! Featuring refreshed interiors these large rooms overlook our lush green gardens. Both Twin Bed and King Beds are available. Interconnecting rooms are also available."
+    },
+    {
+      "id": 2,
+      "type": "Duplex",
+      "image": "./images/dup.jpg",
+      "descprition": "Each duplex suite has two floors. One is at ground Level, and the other is below ground. The upper floor has a sitting area (which may also be arranged as a sleeping area for two persons), a work desk, and a kitchenette.The lower floor, reconstructed by a designer using the building’s original Ottoman-era brickwork, is the master bedroom suite, with king- size bed and glass-enclosed hamam-style Turkish bathroom.."
+    },
+    {
+      "id": 3,
+      "type": "Penthouse",
+      "image": "./images/pent.jpg",
+      "descprition": "Spacious, stylish and boasting superb views, our two Penthouse Suites bring luxury to a new level. Set on the top floor of VILA VITA Parc’s main building, the Penthouse Suites come with large balconies affording uninterrupted views across the garden grounds to the ocean.The Mediterranean-influenced interior comprises a lounge and a separate dining area for up to six guests, as well as a bedroom with its own dressing area and a bathroom outfitted with a tub and steam shower. There is also a fully-equipped kitchen with a service entrance and a guest toilet."
+    },
+    {
+      "id": 4,
+      "type": "Honeymoon Suite",
+      "image": "./images/honey.jpg",
+      "descprition": "Complementing the romance of the location, enhancing the senses, the Honeymoon Villa is a special and intimate space. The glass walled Jacuzzi is sunlit through the day by a frosted skylight and opens into the bedroom."
+    }
+  ]
+}
